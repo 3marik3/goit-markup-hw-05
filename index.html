@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/modern-normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <!-- Шапка -->
+<header class="header">
+    <div class="container auth-div">
+        <nav class="auth-nav">
+            <a class="webstudio text-decor" href=""><span class="web">Web</span>Studio</a>
+            <ul class="site-ul">
+                <li><a class="link-li text-decor" href="./index.html">Студия</a></li>
+                <li><a class="link-li text-decor" href="./portfolio.html">Портфолио</a></li>
+                <li><a class="link-li text-decor" href="">Контакты</a></li>
+            </ul>
+        </nav>
+        <ul class="site-ul-li">
+            <li> 
+            <a class="link text-decor" href="#"> <svg class="envelope" width="16" height="12">
+                <use href="./images/icons.svg#icon-envelope-hover">
+                </use>
+            </svg> info@devstudio</a>
+        </li>
+            <li>
+                <a class="link text-decor" href="#"> <svg class="smarthone" width="16" height="12">
+                    <use href="./images/icons.svg#icon-Vector"></use>
+                </svg> +38 096 111 11 11</a></li>
+        </ul>
+    </div>
+</header>
+    <!-- Головна частина -->
+    <main>
+            <!-- Рішення -->
+            <section class="hero section">
+                <h1 class="decision">Эффективные решения <br> для вашего бизнеса</h1>
+                <button class="btn" type="button" data-modal-open>Заказать услугу</button>
+                <div class="backdrop is-hidden" data-modal>
+                    <div class="modal">
+                        <button class="btn-modal" data-modal-close>X</button>
+                    </div>
+                </div>
+            </section>
+            <!-- Увага, пунктуальність, планування та сучасні технології -->
+            <section class="section section-tehnologi">
+                <div class="container">
+                            <ul class="job">
+                                <li class="job-li">
+                                    <div class="div-tehnologi">
+                                        <svg  class="icon-tehnologi" width="70" height="70">
+                                            <use href="./images/icons.svg#icon-antenna-1"></use>
+                                        </svg>
+                                    </div> 
+                                    <h3 class="menu">Внимание к деталям</h3>
+                                    <p class="submenu">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
+                                </li>
+                                <li class="job-li">
+                                    <div class="div-tehnologi">
+                                        <svg class="icon-tehnologi" width="70" height="70">
+                                            <use href="./images/icons.svg#icon-clock-1"></use>
+                                        </svg>
+                                    </div>
+                                    <h3 class="menu">Пунктуальность</h3>
+                                    <p class="submenu">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
+                                </li>
+                                <li class="job-li">
+                                    <div class="div-tehnologi">
+                                        <svg class="icon-tehnologi" width="70" height="70">
+                                            <use href="./images/icons.svg#icon-diagram-1"></use>
+                                        </svg>
+                                    </div>
+                                    <h3 class="menu">Планирование</h3>
+                                    <p class="submenu">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
+                                </li>
+                                <li class="job-li">
+                                    <div class="div-tehnologi">
+                                        <svg class="icon-tehnologi" width="70" height="70">
+                                            <use href="./images/icons.svg#icon-astronaut-1"></use>
+                                        </svg>
+                                    </div>
+                                    <h3 class="menu">Современные технологии</h3>
+                                    <p class="submenu">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
+                                </li>
+                            </ul>
+                </div>
+            </section>
+            <!-- Чим ми займаємось -->
+            <section class="section">
+                <div class="container">
+                    <h2 class="work">Чем мы занимаемся</h2>
+                    <ul class="work-ul">
+                        <li>
+                            <img src="./images/img.jpg" width="370" alt="программист работает в своем рабочем офисе">
+                        </li>
+                        <li>
+                            <img src="./images/img2.jpg" width="370" alt="вебдизайнеры разрабатывают приложение на смартфоны">
+                        </li>
+                        <li>
+                            <img src="./images/img3.jpg" width="370"
+                                alt="креативный художник веб дизайнер с рабочим выбором цвета графическим планшетом">
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <!-- Команда -->
+            <section class="section" style="background-color: #F5F4FA">
+                <div class="container">
+                    <h2 class="team">Наша команда</h2>
+                    <ul class="team-ul">
+                        <li class="team-li">
+                            <img src="./images/img4.jpg" width="270" height="260" alt="дизайнер продукта">
+                            <div class="div-p">
+                                <p class="member">Игорь Демьяненко</p>
+                                <p class="kind">Product Designer</p>
+                            </div>
+                            <ul class="icon-ul">
+                                <li class="icon-li"><a class="icon-link" href="#">
+                                    <svg class="icon-item">
+                                        <use href="./images/icons.svg#icon-instagram-2"></use>
+                                    </svg>
+                                </a></li>
+                                <li><a class="icon-link" href="#">
+                                    <svg class="icon-item" width="20" height="20">
+                                        <use href="./images/icons.svg#icon-twitter-1"></use>
+                                    </svg>
+                                </a></li>
+                                <li><a class="icon-link" href="#">
+                                    <svg class="icon-item" width="20" height="20">
+                                        <use href="./images/icons.svg#icon-facebook-1"></use>
+                                    </svg>
+                                </a></li>
+                                <li><a class="icon-link" href="#">
+                                    <svg class="icon-item" width="20" height="20">
+                                        <use href="./images/icons.svg#icon-linkedin-1"></use>
+                                    </svg>
+                                </a></li>
+                            </ul>
+                        </li>
+                        <li class="team-li">
+                            <img src="./images/img5.jpg" width="270" height="260" alt="фронтенд разработчик">
+                            <div class="div-p">
+                                <p class="member">Ольга Репина</p>
+                                <p class="kind">Frontend Developer</p> 
+                            </div>
+                                                        <ul class="icon-ul">
+                                                            <li class="icon-li"><a class="icon-link" href="#">
+                                                                    <svg class="icon-item">
+                                                                        <use href="./images/icons.svg#icon-instagram-2"></use>
+                                                                    </svg>
+                                                                </a></li>
+                                                            <li><a class="icon-link" href="#">
+                                                                    <svg class="icon-item" width="20" height="20">
+                                                                        <use href="./images/icons.svg#icon-twitter-1"></use>
+                                                                    </svg>
+                                                                </a></li>
+                                                            <li><a class="icon-link" href="#">
+                                                                    <svg class="icon-item" width="20" height="20">
+                                                                        <use href="./images/icons.svg#icon-facebook-1"></use>
+                                                                    </svg>
+                                                                </a></li>
+                                                            <li><a class="icon-link" href="#">
+                                                                    <svg class="icon-item" width="20" height="20">
+                                                                        <use href="./images/icons.svg#icon-linkedin-1"></use>
+                                                                    </svg>
+                                                                </a></li>
+                                                        </ul>
+                        </li>
+                        <li class="team-li">
+                            <img src="./images/img6.jpg" width="270" height="260" alt="маркетолог">
+                            <div class="div-p">
+                                <p class="member">Ольга Репина</p>
+                                <p class="kind">Marketing</p>
+                            </div>
+                                                    <ul class="icon-ul">
+                                                        <li class="icon-li"><a class="icon-link" href="#">
+                                                                <svg class="icon-item">
+                                                                    <use href="./images/icons.svg#icon-instagram-2"></use>
+                                                                </svg>
+                                                            </a></li>
+                                                        <li><a class="icon-link" href="#">
+                                                                <svg class="icon-item" width="20" height="20">
+                                                                    <use href="./images/icons.svg#icon-twitter-1"></use>
+                                                                </svg>
+                                                            </a></li>
+                                                        <li><a class="icon-link" href="#">
+                                                                <svg class="icon-item" width="20" height="20">
+                                                                    <use href="./images/icons.svg#icon-facebook-1"></use>
+                                                                </svg>
+                                                            </a></li>
+                                                        <li><a class="icon-link" href="#">
+                                                                <svg class="icon-item" width="20" height="20">
+                                                                    <use href="./images/icons.svg#icon-linkedin-1"></use>
+                                                                </svg>
+                                                            </a></li>
+                                                    </ul>
+                        </li>
+                        <li class="team-li">
+                            <img src="./images/img7.jpg" width="270" height="260" alt="дизайнер пользовательского интерфейса">
+                            <div class="div-p">
+                                <p class="member">Ольга Репина</p>
+                            <p class="kind">UI Designer</p>
+                            </div>
+                                                        <ul class="icon-ul">
+                                                            <li class="icon-li"><a class="icon-link" href="#">
+                                                                    <svg class="icon-item">
+                                                                        <use href="./images/icons.svg#icon-instagram-2"></use>
+                                                                    </svg>
+                                                                </a></li>
+                                                            <li><a class="icon-link" href="#">
+                                                                    <svg class="icon-item" width="20" height="20">
+                                                                        <use href="./images/icons.svg#icon-twitter-1"></use>
+                                                                    </svg>
+                                                                </a></li>
+                                                            <li><a class="icon-link" href="#">
+                                                                    <svg class="icon-item" width="20" height="20">
+                                                                        <use href="./images/icons.svg#icon-facebook-1"></use>
+                                                                    </svg>
+                                                                </a></li>
+                                                            <li><a class="icon-link" href="#">
+                                                                    <svg class="icon-item" width="20" height="20">
+                                                                        <use href="./images/icons.svg#icon-linkedin-1"></use>
+                                                                    </svg>
+                                                                </a></li>
+                                                        </ul>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <!-- Постоянные клиенты -->
+            <section class="section">
+                <div class="container">
+                    <h2 class="clients">Постоянные клиенты</h2>
+                    <ul class="clients-ul">
+                        <li>
+                                <a class="clients-a" href="#">
+                                    <svg class="logo" width="106" height="60">
+                                        <use href="./images/icons.svg#icon-group"></use>
+                                    </svg>
+                                </a>
+                        </li>
+                        <li>
+                                <a class="clients-a" href="#">
+                                <svg class="logo" width="106" height="60">
+                                    <use href="./images/icons.svg#icon-taglinehere"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                                <a class="clients-a" href="#">
+                                    <svg class="logo" width="106" height="60">
+                                <use href="./images/icons.svg#icon-company"></use>
+                            </svg>
+                        </a>
+                        </li>
+                        <li>
+                                <a class="clients-a" href="#">
+                                    <svg class="logo" width="106" height="60">
+                                <use href="./images/icons.svg#icon-fosters"></use>
+                            </svg>
+                        </a>
+                        </li>
+                        <li>
+                                <a class="clients-a" href="#">
+                                    <svg class="logo" width="106" height="60">
+                                    <use href="./images/icons.svg#icon-brand"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                                <a class="clients-a" href="#">
+                                    <svg class="logo" width="106" height="60">
+                                    <use href="./images/icons.svg#icon-tagline"></use>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+    </main>   
+    <!-- Футер -->
+    <footer>
+        <div class="container footers">
+            <div class="footer-addres"> 
+<a class="webstudio-footer text-decor" href=""><span class="web">Web</span>Studio</a>
+            <address class="address text-decor">г. Киев, пр-т Леси Украинки, 26</address>
+            <ul class="email-link">
+                <li><a class="email text-decor" href="">info@example.com</a></li>
+                <li><a class="email text-decor" href="">+38 099 111 11 11</a></li>
+            </ul>
+            </div>
+        <div class="footer-icons">
+            <p class="footer-p">присоединяйтесь</p>
+            <ul class="footer-icons-ul">
+                <li ><a class="footer-icons-a" href="">
+                    <svg class="footer-icon-item" width="20" height="20">
+                        <use href="./images/icons.svg#icon-instagram-2"></use>
+                    </svg>
+                </a></li>
+                <li ><a class="footer-icons-a" href="">
+                    <svg class="footer-icon-item" width="20" height="20">
+                        <use href="./images/icons.svg#icon-twitter-1"></use>
+                    </svg>
+                </a></li>
+                <li ><a class="footer-icons-a" href="">
+                    <svg class="footer-icon-item" width="20" height="20">
+                        <use href="./images/icons.svg#icon-facebook-1"></use>
+                    </svg>
+                </a></li>
+                <li ><a class="footer-icons-a" href="">
+                    <svg class="footer-icon-item" width="20" height="20">
+                        <use href="./images/icons.svg#icon-linkedin-1"></use>
+                    </svg>
+                </a></li>
+            </ul>
+        </div>
+        </div>
+    </footer>
+    <!-- Модальне вікно -->
+    <script src="./js/modal.js"></script>
+</body>
+</html>
