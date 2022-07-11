@@ -159,6 +159,12 @@ ul {
             height: 50px;
             padding: 10px 32px;
 }
+.backdrop {
+        position: fixed;
+        background-color: rgba(0, 0, 0, 0.2);
+        width: 1600px;
+        height: 1024;
+}
 .backdrop.is-hidden {
         visibility: hidden;
         opacity: 0;
@@ -169,8 +175,9 @@ ul {
         width: 528px;
         height: 581px;
         position: absolute;
-        left: 31%;
-        top: 32%;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
 }
 .btn-modal {
         width: 30px;
@@ -179,6 +186,7 @@ ul {
         top: 0;
         right: 0;
 }
+
 /* < !-- Увага,
 пунктуальність,
 планування та сучасні технології --> */
